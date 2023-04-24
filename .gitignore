@@ -21,3 +21,6 @@ welfare/contributions/local_settings.py
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+# Virtual environment
+app-env
