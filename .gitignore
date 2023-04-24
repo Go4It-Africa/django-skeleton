@@ -1,0 +1,23 @@
+# Text backup files
+*.bak
+
+# Database
+*.sqlite3
+
+# Django #
+welfare/contributions/*.log
+welfare/contributions/*.pot
+welfare/contributions/*.pyc
+welfare/contributions/__pycache__
+welfare/contributions/db.sqlite3
+welfare/contributions/db.sqlite3-journal
+welfare/contributions/media
+welfare/contributions/local_settings.py
+
+# Visual Studio Code # 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
