@@ -1,5 +1,6 @@
 from django.urls import path
 from . import views
-url_patterns = [
+
+urlpatterns = [
     path('', view=views.home, name="Contributions_home")
 ]
